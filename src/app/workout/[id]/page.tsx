@@ -29,6 +29,7 @@ export default async function WorkoutDetailPage({ params }: WorkoutDetailPagePro
             fill
             className="object-cover"
             priority
+            sizes="(min-width: 768px) 50vw, 100vw"
           />
         </div>
 
