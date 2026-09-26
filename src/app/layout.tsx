@@ -4,6 +4,7 @@ import "./globals.css";
 import { PlanProvider } from "@/context/PlanContext";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { Toaster } from "sonner";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="flex-1">{children}</div>
           <Footer />
         </PlanProvider>
+        <Toaster theme="dark" position="top-center" richColors />
       </body>
     </html>
   );
