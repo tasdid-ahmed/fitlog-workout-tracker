@@ -17,4 +17,13 @@
   --color-neutral-content: #f5f5f5;
   --radius-box: 1rem;
   --radius-field: 0.5rem;
+  --radius-selector: 1rem;
+}
+
+body {
+  font-family: var(--font-inter), ui-sans-serif, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-oswald), sans-serif;
 }
