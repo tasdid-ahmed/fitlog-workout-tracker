@@ -56,13 +56,13 @@ export default function Navbar() {
         <div className="flex items-center gap-4 text-sm">
           <Link href="/my-plan" className="flex items-center gap-1.5">
             <span className="text-base-content/80">Plan</span>
-            <span className="badge badge-primary badge-sm font-semibold">
+            <span className="badge badge-primary badge-sm px-3 font-semibold">
               {todaysPlan.length}
             </span>
           </Link>
           <Link href="/my-plan" className="flex items-center gap-1.5">
             <span className="text-base-content/80">Saved</span>
-            <span className="badge badge-outline badge-sm font-semibold">
+            <span className="badge badge-outline badge-sm px-3 font-semibold">
               {saved.length}
             </span>
           </Link>
