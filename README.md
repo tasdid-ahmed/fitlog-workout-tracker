@@ -7,12 +7,9 @@
 
 FitLog is a dark, no-nonsense gym companion built with Next.js. Browse a library of twelve lifts, pick the ones you're doing today, and track your plan as you go — all with a clean, distraction-free interface designed for actually getting the workout done, not scrolling through fitness content.
 
-**Live Site:** 
+**Live Site:**  https://fitlog-workout-tracker-beta.vercel.app/
 **Repository:** https://github.com/tasdid2222019/fitlog-workout-tracker
 
-## 📸 Screenshots
-
-_Add a screenshot or two here once deployed — the Home page and the My Plan page are good picks to show off._
 
 ## 🛠️ Technologies Used
 
